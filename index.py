@@ -1,4 +1,4 @@
-def reading_source(path):
+def kakaoChatsCount(path):
     list = []
     listv = {}
   
@@ -48,4 +48,4 @@ def reading_source(path):
 
 # 함수 실행되는 부분
 mylist = r"./testChat.txt"
-reading_source(mylist)
+kakaoChatsCount(mylist)
